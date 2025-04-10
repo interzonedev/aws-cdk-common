@@ -1,0 +1,38 @@
+{
+  "name": "@interzonedev/aws-cdk-common",
+  "version": "1.0.0",
+  "description": "NodeJS library of common constructs for use in building AWS CDK based applications.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "package": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interzonedev/aws-cdk-common.git"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "common"
+  ],
+  "author": "Mark Markarian",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/interzonedev/aws-cdk-common/issues"
+  },
+  "homepage": "https://github.com/interzonedev/aws-cdk-common#readme",
+  "dependencies": {
+    "aws-cdk-lib": "^2.186.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
