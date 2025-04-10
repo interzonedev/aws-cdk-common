@@ -1,6 +1,6 @@
 {
   "name": "@interzonedev/aws-cdk-common",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "NodeJS library of common constructs for use in building AWS CDK based applications.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
